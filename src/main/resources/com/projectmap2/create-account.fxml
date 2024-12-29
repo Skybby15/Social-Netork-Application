@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projectmap2.Controllers.CreateAccountController">
+   <children>
+      <Label layoutX="189.0" layoutY="52.0" text="Create new account" />
+      <Label layoutX="139.0" layoutY="108.0" text="Username" />
+      <Label layoutX="133.0" layoutY="154.0" text="First name" />
+      <Label layoutX="133.0" layoutY="191.0" text="Last name" />
+      <Label layoutX="140.0" layoutY="248.0" text="Password" />
+      <Label layoutX="117.0" layoutY="283.0" text="Retype password" />
+      <TextField fx:id="usernameField" layoutX="214.0" layoutY="104.0" />
+      <TextField fx:id="firstNameField" layoutX="215.0" layoutY="150.0" />
+      <TextField fx:id="lastNameField" layoutX="216.0" layoutY="187.0" />
+      <PasswordField fx:id="passwordField" layoutX="215.0" layoutY="244.0" />
+      <PasswordField fx:id="retypeField" layoutX="216.0" layoutY="279.0" />
+      <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="319.0" prefHeight="18.0" prefWidth="480.0" text="Error Label" textFill="RED" />
+      <Button layoutX="192.0" layoutY="352.0" mnemonicParsing="false" onAction="#onCreateAccount" text="Create Account" />
+   </children>
+</AnchorPane>

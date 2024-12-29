@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="179.0" prefWidth="261.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projectmap2.Controllers.UserDetailsController">
+   <children>
+      <Label layoutX="51.0" layoutY="28.0" text="Username :" />
+      <Label layoutX="51.0" layoutY="63.0" text="Nume :" />
+      <Label layoutX="51.0" layoutY="89.0" text="Prenume :" />
+      <Label layoutX="51.0" layoutY="129.0" text="Prieteni din :" />
+      <Label fx:id="usernameLabel" alignment="CENTER" layoutX="122.0" layoutY="28.0" prefHeight="18.0" prefWidth="132.0" text="Label" />
+      <Label fx:id="firstnameLabel" alignment="CENTER" layoutX="122.0" layoutY="63.0" prefHeight="18.0" prefWidth="132.0" text="Label" />
+      <Label fx:id="lastnameLabel" alignment="CENTER" layoutX="122.0" layoutY="89.0" prefHeight="18.0" prefWidth="132.0" text="Label" />
+      <Label fx:id="dateLabel" alignment="CENTER" layoutX="124.0" layoutY="129.0" prefHeight="18.0" prefWidth="132.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="95.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.projectmap2.Controllers.ErrorWindowController">
+   <children>
+      <TextField fx:id="message" alignment="CENTER" editable="false" prefHeight="99.0" prefWidth="316.0" text="Error Message">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button layoutX="142.0" layoutY="72.0" mnemonicParsing="false" onAction="#handleExitButton" text="Ok" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
